@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: large;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 50px;
+}
+nav ul .Navigation{
+    display: flex;
+    justify-content: end;
+    padding: 0px 20px;
+}
+
+.In{
+    border-radius: 50px;
+    background: grey;
+    width: fit-content;
+    height: fit-content;
+}
+
+.Ab{
+    border-radius: 50px;
+    background: grey;
+    width: fit-content;
+    height: fit-content;
+}
+
+.Con{
+    border-radius: 50px;
+    background: grey;
+    width: fit-content;
+    height: fit-content;
+}
+
+section .Box1{
+    padding: 200px 150px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: x-large;
+    text-align: justify;
+    text-align: center;
+}
+
+section .Box1{
+    border-radius: 50px;
+    background: grey;
+    padding: 40px;
+    width: 700px;
+    height: 200px;
+    position: relative; left: 250px; top: 180px;
+}
+
+section .Box2{
+    padding: 150px 250px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+    text-align: justify;
+    text-align: center;
+    font-size: large;
+}
+
+section .Box2{
+    border-radius: 25px;
+    background: grey;
+    padding: 10px;
+    width: 700px;
+    height: 50px;
+    position: relative; top: 400px; right: 450px;
+}
+
+.Intro p{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Portrait img{
+    width: 500px;
+    height: 500px;
+    border-radius: 25px;
+    position: relative; right: 300px; top: 100px;
+}
+
+section .Abt {
+    font-family: 'Poppins', sans-serif;
+    font-size: xxx-large;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: justify;
+    text-align: center;
+}
+
+section .Abt{
+    border-radius: 50px;
+    background: grey;
+    padding: 0.5px;
+    width: 250px;
+    height: 100px;
+    position: relative; top: 250px; left: 250px;
+}
+
+section .Background{
+    background-image: url(Rest.jpg);
+    padding: 300px 500px;
+    background-position: 0px 200px;
+    background-repeat: no-repeat;
+}
+
+section .Information{
+    font-family: 'Poppins', sans-serif;
+    font-size: x-large;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: justify;
+    text-align: center;
+}
+
+section .Information{
+    border-radius: 50px;
+    background: grey;
+    padding: 30px;
+    width: 700px;
+    height: 750px;
+    position: relative; bottom: 50px; left: 100px;
+}
+
+footer .Nam{
+    padding: 30px;
+}

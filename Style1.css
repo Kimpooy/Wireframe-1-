@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: large;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 50px;
+}
+
+nav ul .Navigation{
+    display: flex;
+    justify-content: end;
+    padding: 0px 20px;
+}
+
+.Intr{
+    border-radius: 50px;
+    background: grey;
+    width: fit-content;
+    height: fit-content;
+}
+
+.Abto{
+    border-radius: 50px;
+    background: grey;
+    width: fit-content;
+    height: fit-content;
+}
+
+.Conta{
+    border-radius: 50px;
+    background: grey;
+    width: fit-content;
+    height: fit-content;
+}
+
+.CNT{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 1000px;
+    background: grey;
+    border-radius: 200px;
+    width: fit-content;
+    height: fit-content;
+    font-size: 100px;
+    justify-content: center;
+    position: relative; left: 150px; top: 150px;
+    padding: 50px 50px 50px 50px
+}
+
+.Socials{
+    padding: 150px 250px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    text-align: justify;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+a:active{
+    text-decoration: none;
+    color: black;
+}
+
+.Fb{
+    padding: 20px 20px 5px 20px;
+    list-style: none;
+}
+
+.Twt{
+    padding: 5px 20px;
+    list-style: none;
+}
+
+.Lnkd{
+    padding: 5px 20px;
+    list-style: none;
+}
+
+.Ig{
+    padding: 5px 20px;
+    list-style: none;
+}
+
+.Gtb{
+    padding: 5px 20px;
+    list-style: none;
+}
+
+.Scl{
+    border-radius: 50px;
+    background: grey;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    padding: 30px 150px;
+    position: relative; left: 100px; top: 50px;
+}
+
+.Email{
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    position: relative; bottom: 350px; left: 300px;
+    border-radius: 50px;
+    background: grey;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px 20px 20px 20px;
+}
+
+.Eml{
+    display: flex;
+    padding: 100px 100px;
+}
